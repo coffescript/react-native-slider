@@ -57,13 +57,6 @@ export default class CarouselComponent extends Component {
                         return <ImageBackground source={image.img} style={[styles.ImageBackground, this.state.size]}
                             key={image.img}>
                             <View style={styles.viewScreen}>
-
-                                <View style={styles.textAboutPromotion}>
-                                    <Text style={styles.textAbout}>
-                                        es simplemente el texto de relleno de las imprentas y archivos de texto.
-                                        Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500,
-                                    </Text>
-                                </View>
                             </View>
                             <Button style={styles.button}>
                                 <Text style={{color: '#000'}}>Price Now!</Text>
