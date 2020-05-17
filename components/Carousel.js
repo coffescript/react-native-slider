@@ -62,7 +62,7 @@ export default class CarouselComponent extends Component {
                                 <Text style={{color: '#000'}}>Price Now!</Text>
                                 <Icon
                                     ios="ios-arrow-back"
-                                    android="md-arrow-back"
+                                    android="md-arrow-forward"
                                     style={{color: '#000'}}
                                 />
                             </Button>
